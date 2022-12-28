@@ -1,0 +1,330 @@
+@media (max-width: 420px) {
+    .promo{
+        padding: 30px 5px 0 5px;
+        .button_sell{
+            width: 120px;
+            height: 30px;
+            font-size: 11px;
+        }
+        .header__phone{
+            font-size: 12px;
+        }
+        .header__official{
+            span{
+                font-size: 14px;
+            }
+        }
+        &__header{
+            display: block;
+            margin: 0 auto;
+            font-size: 25px;
+        }
+        &__subheader{
+            font-size: 14px;
+            display: block;
+            margin: 0 auto;
+            margin-top: 10px;
+        }
+        &__icons{
+            justify-content: center;
+            flex-direction: column;
+            position: relative;
+            left: 65%;
+            margin-top: 20px;
+        }
+        &__icon{
+           margin-left: 20px;
+           margin-top: 20px;
+        }
+        .button{
+            &_main{
+                display: block;
+                margin: 0 auto;
+                margin-top: 60px;
+            }
+        }
+        &__link{
+            display: block;
+            margin: 0 auto;
+            margin-top: 10px;
+        }
+    }
+}
+
+.adventages{
+        min-height: 513px;
+        &__wrapper{
+            justify-content: center;
+            text-align: center;
+            flex-direction: column;
+            margin-left: 8%;
+
+        &__items{
+            align-items: center;
+            flex-direction: column;
+            width: 100%;
+            justify-content: center; 
+        }
+        img{
+            margin-top: 20px;
+        }
+        .title_with{
+            font-size: 20px;
+        }
+        &__subheader{
+            font-size: 18px;
+        }
+        &__descr{
+            font-size: 14px; 
+        }
+    }
+}
+
+
+.consultation{
+    min-height: 680px;
+    padding: 100px 0 108px 0;
+    .title_left{
+        font-size: 20px;
+        text-align: center;
+    }
+    &__descr{
+        font-size: 15px;
+        line-height: none;
+        text-align: center;
+        margin-top: 10px;
+    }
+    form{
+        align-items: center;
+    }
+}
+
+
+.carousel{
+    padding: 80px 0;
+    &__inner{
+        position: relative;
+        width: 750px;
+        margin: 0 auto;
+        img{
+            position: relative;
+            width: 33%;
+            left: 5%
+        }
+    }
+    .slick-prev{
+        display: none;
+        img{
+            display: none;
+        }
+    }
+    .slick-next{
+        display: none;
+        img{
+            display: none;
+        }
+    }
+}
+
+.catalog{
+    padding-bottom: 100px;
+    &__content{
+        margin-top: 60px;
+        display: none;
+        justify-content: center;
+        flex-wrap: wrap;
+        &_active{
+            display: flex;
+        }
+        }
+    &__tabs{
+        margin-top: 70px;
+        list-style-type: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 0;
+        padding-left: 0;
+    }
+    &__tab{
+        width: 206px;
+        height: 32px;
+        border: 2px solid #D0D0D0;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 30px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #6B6B6B;
+        margin: 0 4px;
+        transform: skewX(-25deg);
+        cursor: pointer;
+        transition: 1s all;
+        &:hover{
+            box-shadow: 3px 3px 20px #C70101;
+            border: none;
+        }
+        div{
+            transform: skewX(25deg);
+        }
+        &_active{
+            color: #fff;
+            background-color: #C70101;
+            border: none;
+        }
+    }
+}
+
+.comment{
+    min-height: 1050px;
+    display: flex;
+    flex-direction: column;
+    img{
+        height: 50%;
+        margin-top: 60px;
+        display: none;
+    }
+    &__text{
+        margin-top: 60px;
+        margin-left: 20px;
+        width: 300px;
+    }
+    &__item{
+        display: flex;
+        justify-content: center;
+    }
+    &__subtitle{
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 18px;
+        color: #0D0D0D;
+    }
+    &__const{
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 22px;
+        color: #646464;
+    }
+    &__descr{
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 24px;
+        color: #0D0D0D;
+        margin-top: 10px;
+    }
+}
+
+.footer{
+    &__wrapper{
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 320px;
+        height: 270px;
+        background: #C70101;
+        display: block;
+        margin: 0 auto;
+        padding: 50px 54px 50px 53px;
+    }
+    &__location{
+        font-weight: 500;
+        font-size: 15px;
+    }
+    &__phone{
+        font-size: 15px;
+    }
+    &__items{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 36px;
+        a{
+            width: 43px;
+            height: 32px;
+            border: 2px solid #FFFFFF;
+            border-radius: 50%;
+            img{
+                position: relative;
+                top: 0;
+                left: 50%;
+                width: 20px;
+                height: 19px;
+                transform: translateX(-50%);
+             }
+        }
+       
+    }
+}
+
+.pageup {
+    display: none;
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    width: 40px;
+    height: 40px;
+    img {
+        width: 100%;
+    }
+}
+
+
+.overplay{
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    background-color: rgba(0, 0, 0, .56);
+    form{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        input{
+            margin-top: 11px;
+            width: 280px;
+            height: 54px;
+            border-radius: 5px;
+            border: none;
+            padding-left: 20px;
+        }
+    }
+}
+.modal{
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    min-height: 400px;
+    background-color: #f2f2f2;
+    padding: 38px 5px 40px 10px;
+    button{
+        width: 280px;
+    }
+    &__close{
+        position: absolute;
+        top: 0;
+        right: -40px;
+        color: #C70101;
+        line-height: 21px;
+        font-size: 41px;
+        cursor: pointer;
+    }
+    &__subtitle{
+        color: #0d0d0d;
+        font-size: 18px;
+    }
+    &_mini{
+        position: absolute;
+        top: 70%;
+        width: 280px;
+        min-height: 140px;
+    }
+}
+
+#consultation, #order, #visual{
+    display: none;
+}
